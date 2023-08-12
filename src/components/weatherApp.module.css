@@ -3,3 +3,26 @@
     height: 50px;
     margin: 150px auto;
 }
+
+@media (max-width: 768px) {
+    .weatherContainer {
+        width: fit-content;
+    }
+  }
+
+@media (max-width: 480px) {
+    .weatherContainer {
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .weatherContainer {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+}
